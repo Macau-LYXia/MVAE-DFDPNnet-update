@@ -45,7 +45,7 @@ MVAE-DFDPnet is developed and maintained by Luo lab at `Shanghai Jiao Tong Unive
 * `MVAE`:construct deep network for Multi-View Variational Autoencoder (epoch = 500,batchsize =100)
 
 We provided the pre-trained vector representations for drugs and proteins, which were used to produce the results in our paper.
-* drugFeature.txt
+* $\color{black}{drugFeature.txt}$
 * proteinFeature
 
 *Basic Usage
