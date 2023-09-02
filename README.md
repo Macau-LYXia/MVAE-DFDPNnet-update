@@ -44,14 +44,14 @@ MVAE-DFDPnet is developed and maintained by Luo lab at `Shanghai Jiao Tong Unive
 * `Demo.py`:compact feature learning by integrating heterogeneous network
 * `MVAE`:construct deep network for Multi-View Variational Autoencoder (epoch = 500,batchsize =100)
 
-We provided the pre-trained vector representations for drugs and proteins, which were used to produce the results in our paper.
-* drugFeature.txt
-* proteinFeature.txt
+  We provided the pre-trained vector representations for drugs and proteins, which were used to produce the results in our paper.
+  * drugFeature.txt
+  * proteinFeature.txt
 
-#### Basic Usage：
-```$ python  demo.py```
+  #### Basic Usage：
+  ```$ python  demo.py```
 
 #### Prediction/Deepforest/
 * `deepforest.py`: predict drug-protein interactions (DPIs)
-    Basic Usage
-     $ python  deepforest.py
+  ##### Basic Usage
+   ```$ python  deepforest.py
