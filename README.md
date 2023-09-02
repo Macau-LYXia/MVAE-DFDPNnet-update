@@ -46,8 +46,8 @@ MVAE-DFDPnet is developed and maintained by Luo lab at `Shanghai Jiao Tong Unive
 *Basic Usage
 `$ python  demo.py'
 
-### *  Prediction/Deepforest/
-   -  deepforest.py: predict drug-protein interactions (DPIs)
+#### Prediction/Deepforest/
+* deepforest.py: predict drug-protein interactions (DPIs)
     Basic Usage
      $ python  deepforest.py
 
