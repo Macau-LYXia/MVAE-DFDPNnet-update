@@ -6,6 +6,9 @@ In this study, a novel deep learning framework called Multi-view Variational Aut
 
 MVAE-DFDPnet is developed and maintained by Luo lab at `Shanghai Jiao Tong University`. Please direct your questions regarding MVAE-DFDPnet to Jie Luo: jieluo@sjtu.edu.cn.
 
+MVAE-DFDPnet is written in Python3, with the following dependencies:
+
+
 ![mahua](mahua-logo.jpg)
 ##MaHua是什么?
 一个在线编辑markdown文档的编辑器
