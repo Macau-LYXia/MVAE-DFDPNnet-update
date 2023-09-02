@@ -18,9 +18,8 @@ MVAE-DFDPnet is written in Python 3.9, with the following dependencies:
       
 
 
-##`Code and data`
-
-1. Data preprocessing (similar work with https://github.com/luoyunan/DTINet)
+`Code and data`
+*  Data preprocessing (similar work with https://github.com/luoyunan/DTINet)
     
     *  main.m:implement data preprocessing 
     *  ScaleSimMat.m:Scale Similar Matrix by Row 
@@ -44,7 +43,7 @@ MVAE-DFDPnet is written in Python 3.9, with the following dependencies:
     - Sim_drugDisease: Drug-Disease Jaccard similarity matrix
     - Sim_proteinDisease.txt: Protein-Disease Jaccard similarity matrix
 
-2.  Embedding
+*  Embedding
     - Demo.py:compact feature learning by integrating heterogeneous network
     - MVAE:construct deep network for Multi-View Variational Autoencoder (epoch = 500,batchsize =100)
 
@@ -52,7 +51,7 @@ MVAE-DFDPnet is written in Python 3.9, with the following dependencies:
 
     `$ python  demo.py'
 
-3.  Prediction/Deepforest/
+ *  Prediction/Deepforest/
 
    deepforest.py: predict drug-protein interactions (DPIs)
     Basic Usage
