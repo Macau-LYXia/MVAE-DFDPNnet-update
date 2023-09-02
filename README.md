@@ -1,5 +1,4 @@
-# `Title：MVAE-DFDPNnet:Drug-Protein Interaction Prediction via Multi-View Variational Autoencoder and Cascade Deep Forests`
-=====
+## `Title：MVAE-DFDPNnet:Drug-Protein Interaction Prediction via Multi-View Variational Autoencoder and Cascade Deep Forests`
 In this study, a novel deep learning framework called Multi-view Variational Auto-Encoder embedded Deep Forest (MVAE-DFDPnet) is proposed for the accurate prediction of Drug-Protein Interactions (DPIs). DPI prediction is critical for drug discovery and precision medicine, and this framework aims to address the challenges posed by the high-dimensionality representation of drug and protein characteristics and their interactions.
 file:///C:/Users/feng/Desktop/%E6%8D%95%E8%8E%B7.PNG
 MVAE-DFDPnet is developed and maintained by Luo lab at `Shanghai Jiao Tong University`. Please direct your questions regarding MVAE-DFDPnet to Jie Luo: jieluo@sjtu.edu.cn.
