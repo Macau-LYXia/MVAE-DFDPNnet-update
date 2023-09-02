@@ -17,7 +17,7 @@ MVAE-DFDPnet is developed and maintained by Luo lab at `Shanghai Jiao Tong Unive
 
 
 ##  `Code and data`
-###  *  Data preprocessing (similar work with https://github.com/luoyunan/DTINet)
+###  * Data preprocessing (similar work with https://github.com/luoyunan/DTINet)
     
     *  main.m:implement data preprocessing 
     *  ScaleSimMat.m:Scale Similar Matrix by Row 
