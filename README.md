@@ -16,8 +16,8 @@ MVAE-DFDPnet is developed and maintained by Luo lab at `Shanghai Jiao Tong Unive
       
 
 
-## `Code and data`
-### *  Data preprocessing (similar work with https://github.com/luoyunan/DTINet)
+##  `Code and data`
+###  *  Data preprocessing (similar work with https://github.com/luoyunan/DTINet)
     
     *  main.m:implement data preprocessing 
     *  ScaleSimMat.m:Scale Similar Matrix by Row 
@@ -25,7 +25,7 @@ MVAE-DFDPnet is developed and maintained by Luo lab at `Shanghai Jiao Tong Unive
     *  GetPPMIMatrix.m:get PPMI matrix
     *  compute_similarity.m:compute Jaccard similarity based on interaction/association network
 
-### *  Data preprocessing/data
+###  *  Data preprocessing/data
     - drugsim1network.txt: Drug chemical similarity matrix
     - drugsim2network.txt: Drug therapeutic similarity matrix
     - drugsim3network.txt: Drug sequence similarity matrix
