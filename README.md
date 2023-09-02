@@ -12,9 +12,9 @@ MVAE-DFDPnet is written in Python 3.9, with the following dependencies:
    *   pandas       1.1.3
    *   xgboost       1.3.3
    *   scikit-learn    0.23.2
-   *     Keras         2.4.3
-    scipy         1.5.2
-    joblib         0.17.0
+   *   Keras         2.4.3
+   *   scipy         1.5.2
+   *   joblib         0.17.0
 
 ![mahua](mahua-logo.jpg)
 ##MaHua是什么?
