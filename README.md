@@ -20,12 +20,20 @@ MVAE-DFDPnet is written in Python 3.9, with the following dependencies:
 
   *  Data preprocessing (similar work with https://github.com/luoyunan/DTINet)
     
-    *  main.m:implement data preprocessing 
+    main.m:implement data preprocessing 
     *  ScaleSimMat.m:Scale Similar Matrix by Row 
     *  RandSurf.m:network diffusion algorithm (random walk with restart)
     *  GetPPMIMatrix.m:get PPMI matrix
     *  compute_similarity.m:compute Jaccard similarity based on interaction/association network
+`Code and data`
 
+  *  Data preprocessing (similar work with https://github.com/luoyunan/DTINet)
+    
+    main.m:implement data preprocessing 
+    *  ScaleSimMat.m:Scale Similar Matrix by Row 
+    *  RandSurf.m:network diffusion algorithm (random walk with restart)
+    *  GetPPMIMatrix.m:get PPMI matrix
+    *  compute_similarity.m:compute Jaccard similarity based on interaction/association network
 ![mahua](mahua-logo.jpg)
 ##MaHua是什么?
 一个在线编辑markdown文档的编辑器
