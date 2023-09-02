@@ -15,7 +15,9 @@ MVAE-DFDPnet is written in Python 3.9, with the following dependencies:
    *   Keras         2.4.3
    *   scipy         1.5.2
    *   joblib         0.17.0
+      
 `Code and data`
+
   *  Data preprocessing 
     *  main.m:implement data preprocessing 
     *  ScaleSimMat.m:Scale Similar Matrix by Row 
