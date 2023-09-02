@@ -3,7 +3,7 @@ In this study, a novel deep learning framework called Multi-view Variational Aut
 file:///C:/Users/feng/Desktop/%E6%8D%95%E8%8E%B7.PNG
 MVAE-DFDPnet is developed and maintained by Luo lab at `Shanghai Jiao Tong University`. Please direct your questions regarding MVAE-DFDPnet to Jie Luo: jieluo@sjtu.edu.cn.
 
-## MVAE-DFDPnet is written in Python 3.9, with the following dependencies:
+### MVAE-DFDPnet is written in Python 3.9, with the following dependencies:
    *   tensorflow    2.2.0
    *   numpy         1.19.2
    *   pandas       1.1.3
@@ -15,10 +15,10 @@ MVAE-DFDPnet is developed and maintained by Luo lab at `Shanghai Jiao Tong Unive
       
 
 
-##  `Code and data`
-### * Data preprocessing (similar work with https://github.com/luoyunan/DTINet)
+###  `Code and data`
+####  Data preprocessing (similar work with https://github.com/luoyunan/DTINet)
     
-    *  main.m:implement data preprocessing 
+    1) main.m:implement data preprocessing 
     *  ScaleSimMat.m:Scale Similar Matrix by Row 
     *  RandSurf.m:network diffusion algorithm (random walk with restart)
     *  GetPPMIMatrix.m:get PPMI matrix
