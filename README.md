@@ -19,34 +19,32 @@ MVAE-DFDPnet is developed and maintained by Luo lab at `Shanghai Jiao Tong Unive
 ####  Data preprocessing (similar work with https://github.com/luoyunan/DTINet)
     
 * main.m:implement data preprocessing 
-    *  ScaleSimMat.m:Scale Similar Matrix by Row 
-    *  RandSurf.m:network diffusion algorithm (random walk with restart)
-    *  GetPPMIMatrix.m:get PPMI matrix
-    *  compute_similarity.m:compute Jaccard similarity based on interaction/association network
+* ScaleSimMat.m:Scale Similar Matrix by Row 
+* RandSurf.m:network diffusion algorithm (random walk with restart)
+* GetPPMIMatrix.m:get PPMI matrix
+* compute_similarity.m:compute Jaccard similarity based on interaction/association network
 
-###  *  Data preprocessing/data
-    - drugsim1network.txt: Drug chemical similarity matrix
-    - drugsim2network.txt: Drug therapeutic similarity matrix
-    - drugsim3network.txt: Drug sequence similarity matrix
-    - drugsim4network.txt: Drug biological processes similarity matrix
-    - drugsim5network.txt: Drug cellular component similarity matrix
-    - drugsim6network.txt: Drug molecular function similarity matri
-    - proteinprotein.txt: Protein-Protein interaction matrix
-    - proteinDisease.txt: Protein-Disease association matrix
-    - proteinsim1network.txt: Protein sequence similarity matrix
-    - proteinsim2network.txt: Protein biological processes similarity matrix
-    - proteinsim3network.txt: Protein cellular component similarity matrix
-    - proteinsim4network.txt: Protein molecular function similarity matrix
-    - Sim_drugDisease: Drug-Disease Jaccard similarity matrix
-    - Sim_proteinDisease.txt: Protein-Disease Jaccard similarity matrix
+####   Data preprocessing/data
+* drugsim1network.txt: Drug chemical similarity matrix
+* drugsim2network.txt: Drug therapeutic similarity matrix
+* drugsim3network.txt: Drug sequence similarity matrix
+* drugsim4network.txt: Drug biological processes similarity matrix
+* drugsim5network.txt: Drug cellular component similarity matrix
+* drugsim6network.txt: Drug molecular function similarity matri
+* proteinprotein.txt: Protein-Protein interaction matrix
+* proteinDisease.txt: Protein-Disease association matrix
+* proteinsim1network.txt: Protein sequence similarity matrix
+* proteinsim2network.txt: Protein biological processes similarity matrix
+* proteinsim3network.txt: Protein cellular component similarity matrix
+* proteinsim4network.txt: Protein molecular function similarity matrix
+* Sim_drugDisease: Drug-Disease Jaccard similarity matrix
+* Sim_proteinDisease.txt: Protein-Disease Jaccard similarity matrix
 
-### *  Embedding
-    - Demo.py:compact feature learning by integrating heterogeneous network
-    - MVAE:construct deep network for Multi-View Variational Autoencoder (epoch = 500,batchsize =100)
-
-    Basic Usage
-
-    `$ python  demo.py'
+#### Embedding
+* Demo.py:compact feature learning by integrating heterogeneous network
+* MVAE:construct deep network for Multi-View Variational Autoencoder (epoch = 500,batchsize =100)
+*Basic Usage
+`$ python  demo.py'
 
 ### *  Prediction/Deepforest/
    -  deepforest.py: predict drug-protein interactions (DPIs)
