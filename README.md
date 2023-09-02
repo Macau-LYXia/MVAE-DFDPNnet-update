@@ -16,9 +16,9 @@ MVAE-DFDPnet is written in Python 3.9, with the following dependencies:
    *   scipy         1.5.2
    *   joblib         0.17.0
 `Code and data`
-*Data preprocessing 
-  *main.m:implement data preprocessing 
-  *ScaleSimMat.m:Scale Similar Matrix by Row 
+  *  Data preprocessing 
+    *  main.m:implement data preprocessing 
+    *  ScaleSimMat.m:Scale Similar Matrix by Row 
   *RandSurf.m:network diffusion algorithm (random walk with restart)
   *GetPPMIMatrix.m:get PPMI matrix
   *compute_similarity.m:compute Jaccard similarity based on interaction/association network
