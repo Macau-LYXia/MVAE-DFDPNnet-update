@@ -48,8 +48,8 @@ We provided the pre-trained vector representations for drugs and proteins, which
 * drugFeature.txt
 * proteinFeature.txt
 
-*Basic Usage
-`$$ python  demo.py$'
+* Basic Usage
+```$ python  demo.py```
 
 #### Prediction/Deepforest/
 * `deepforest.py`: predict drug-protein interactions (DPIs)
