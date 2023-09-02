@@ -19,10 +19,10 @@ MVAE-DFDPnet is developed and maintained by Luo lab at `Shanghai Jiao Tong Unive
 ####  Data preprocessing (similar work with https://github.com/luoyunan/DTINet)
     
 * `main.m`:implement data preprocessing 
-* ScaleSimMat.m:Scale Similar Matrix by Row 
-* RandSurf.m:network diffusion algorithm (random walk with restart)
-* GetPPMIMatrix.m:get PPMI matrix
-* compute_similarity.m:compute Jaccard similarity based on interaction/association network
+* `ScaleSimMat.m`:Scale Similar Matrix by Row 
+* `RandSurf.m`:network diffusion algorithm (random walk with restart)
+* `GetPPMIMatrix.m`:get PPMI matrix
+* `compute_similarity.m`:compute Jaccard similarity based on interaction/association network
 
 ####   Data preprocessing/data
 * drugsim1network.txt: Drug chemical similarity matrix
@@ -41,8 +41,8 @@ MVAE-DFDPnet is developed and maintained by Luo lab at `Shanghai Jiao Tong Unive
 * Sim_proteinDisease.txt: Protein-Disease Jaccard similarity matrix
 
 #### Embedding
-* Demo.py:compact feature learning by integrating heterogeneous network
-* MVAE:construct deep network for Multi-View Variational Autoencoder (epoch = 500,batchsize =100)
+* `Demo.py`:compact feature learning by integrating heterogeneous network
+* `MVAE`:construct deep network for Multi-View Variational Autoencoder (epoch = 500,batchsize =100)
 
 We provided the pre-trained vector representations for drugs and proteins, which were used to produce the results in our paper.
 * drugFeature.txt
@@ -52,6 +52,6 @@ We provided the pre-trained vector representations for drugs and proteins, which
 `$ python  demo.py'
 
 #### Prediction/Deepforest/
-* deepforest.py: predict drug-protein interactions (DPIs)
+* `deepforest.py`: predict drug-protein interactions (DPIs)
     Basic Usage
      $ python  deepforest.py
