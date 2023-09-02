@@ -48,7 +48,7 @@ We provided the pre-trained vector representations for drugs and proteins, which
 * drugFeature.txt
 * proteinFeature.txt
 
-* Basic Usage
+<p class="red-text">Basic Usage：</p>
 ```$ python  demo.py```
 
 #### Prediction/Deepforest/
