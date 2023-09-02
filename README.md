@@ -18,7 +18,7 @@ MVAE-DFDPnet is written in Python 3.9, with the following dependencies:
       
 `Code and data`
 
-  *  Data preprocessing
+  *  Data preprocessing (similar work with https://github.com/luoyunan/DTINet)
     
     *  main.m:implement data preprocessing 
     *  ScaleSimMat.m:Scale Similar Matrix by Row 
