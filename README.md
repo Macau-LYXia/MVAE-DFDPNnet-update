@@ -51,8 +51,8 @@ MVAE-DFDPnet is written in Python 3.9, with the following dependencies:
 
     `$ python  demo.py'
 
- *  Prediction/Deepforest/
-   *  deepforest.py: predict drug-protein interactions (DPIs)
+*  Prediction/Deepforest/
+   -  deepforest.py: predict drug-protein interactions (DPIs)
     Basic Usage
      $ python  deepforest.py
 
