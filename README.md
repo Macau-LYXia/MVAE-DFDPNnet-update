@@ -22,7 +22,7 @@ MVAE-DFDPnet is written in Python 3.9, with the following dependencies:
 
 1. Data preprocessing (similar work with https://github.com/luoyunan/DTINet)
     
-    main.m:implement data preprocessing 
+    *  main.m:implement data preprocessing 
     *  ScaleSimMat.m:Scale Similar Matrix by Row 
     *  RandSurf.m:network diffusion algorithm (random walk with restart)
     *  GetPPMIMatrix.m:get PPMI matrix
@@ -53,8 +53,8 @@ MVAE-DFDPnet is written in Python 3.9, with the following dependencies:
     `$ python  demo.py'
 
 3.  Prediction/Deepforest/
-*   
-    deepforest.py: predict drug-protein interactions (DPIs)
+
+   deepforest.py: predict drug-protein interactions (DPIs)
     Basic Usage
      $ python  deepforest.py
 
