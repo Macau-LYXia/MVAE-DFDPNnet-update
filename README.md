@@ -1,3 +1,41 @@
-# MVAE-DFDPNnet-update
-Drug-Protein Interaction Prediction via Multi-View Variational Autoencoder and Cascade Deep Forests
-Accurate prediction of Drug-Protein Interactions (DPIs) is crucial for drug discovery and precision medicine. Despite recent progress, the high-dimensionality representation drug and protein characteristics and their interactions poses significant challenge. In this study, we propose a novel deep learning framework, Multi-view Variational Auto-Encoder embedded Deep Forest (MVAE-DFDPnet) for DPI prediction. This framework learns low-dimensional drug/protein embeddings from heterogeneous drug/protein networks by multi-view variational auto-encoder, then feeds drug-protein embeddings into a cascade deep forest to predict yet unknown DPIs. Our experiments show that the MVAE-DFDPnet achieves 98.6% out-of-sample accuracy in predicting DPIs on benchmark datasets, outperforming state-of-the-art methods with much lower embedding dimensions. We further demonstrate the robustness and generalizability of the method by testing on unseen drugs and proteins as well as on unseen drug class, where the model still maintains high prediction accuracy. We have also successfully validated a number of novel DPIs by experimental evidence found in literature, demonstrating the potential of MVAE-DFDPnet in real worldapplications.
+![mahua](mahua-logo.jpg)
+##MaHua是什么?
+一个在线编辑markdown文档的编辑器
+
+##MaHua有哪些功能？
+
+* 方便的`导入导出`功能
+    *  直接把一个markdown的文本文件拖放到当前这个页面就可以了
+    *  导出为一个html格式的文件，样式一点也不会丢失
+* 编辑和预览`同步滚动`，所见即所得（右上角设置）
+* `VIM快捷键`支持，方便vim党们快速的操作 （右上角设置）
+* 强大的`自定义CSS`功能，方便定制自己的展示
+* 有数量也有质量的`主题`,编辑器和预览区域
+* 完美兼容`Github`的markdown语法
+* 预览区域`代码高亮`
+* 所有选项自动记忆
+
+##有问题反馈
+在使用中有任何问题，欢迎反馈给我，可以用以下联系方式跟我交流
+
+* 邮件(dev.hubo#gmail.com, 把#换成@)
+* 微信:jserme
+* weibo: [@草依山](http://weibo.com/ihubo)
+* twitter: [@ihubo](http://twitter.com/ihubo)
+
+##捐助开发者
+在兴趣的驱动下,写一个`免费`的东西，有欣喜，也还有汗水，希望你喜欢我的作品，同时也能支持一下。
+##感激
+感谢以下的项目,排名不分先后
+
+* [ace](http://ace.ajax.org/)
+* [jquery](http://jquery.com)
+
+##关于作者
+
+```javascript
+var ihubo = {
+  nickName  : "草依山",
+  site : "http://jser.me"
+}
+```
