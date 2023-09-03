@@ -40,7 +40,7 @@ MVAE-DFDPnet is developed and maintained by Luo lab at `Shanghai Jiao Tong Unive
 * Sim_drugDisease: Drug-Disease Jaccard similarity matrix
 * Sim_proteinDisease.txt: Protein-Disease Jaccard similarity matrix
 
-#### Embedding
+#### Embedding (Basic Usage：  ```$ python  demo.py```)
 * `Demo.py`:compact feature learning by integrating heterogeneous network
 * `MVAE`:construct deep network for Multi-View Variational Autoencoder (epoch = 500,batchsize =100)
 
@@ -48,10 +48,7 @@ MVAE-DFDPnet is developed and maintained by Luo lab at `Shanghai Jiao Tong Unive
   * drugFeature.txt
   * proteinFeature.txt
 
-  #### Basic Usage：
-  ```$ python  demo.py```
 
-#### Prediction/Deepforest/
+#### Prediction/Deepforest/ (Basic Usage :  ```$ python  deepforest.py ```)
 * `deepforest.py`: predict drug-protein interactions (DPIs)
-  ##### Basic Usage
-   ```$ python  deepforest.py
+
