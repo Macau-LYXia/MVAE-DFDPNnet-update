@@ -41,7 +41,7 @@ In this study, a novel deep learning framework called Multi-view Variational Aut
 * Sim_proteinDisease.txt: Protein-Disease Jaccard similarity matrix
 
 #### Embedding (Basic Usage：  ```$ python  demo.py```)
-* `Demo.py`:compact feature learning by integrating heterogeneous network
+* `demo.py`:compact feature learning by integrating heterogeneous network
 * `MVAE`:construct deep network for Multi-View Variational Autoencoder (epoch = 500,batchsize =100)
 
   We provided the pre-trained vector representations for drugs and proteins, which were used to produce the results in our paper.
